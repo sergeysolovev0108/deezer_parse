@@ -47,4 +47,4 @@ for track in data.json()['tracks']['data']:
         print('___________________________________________________________')
 
 if bool(not_added_to_playlist):
-    print('Some errors. Track dont added to playlist:', not_added_to_playlist)
+    print('Some errors. Track not added to playlist:', not_added_to_playlist)
